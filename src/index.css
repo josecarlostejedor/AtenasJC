@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Josefin+Sans:wght@300;400;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Josefin Sans", sans-serif;
+  --color-gold: #C9A84C;
+  --color-cream: #F5F0E8;
+  --color-dark: #1A1614;
+}
+
+body {
+  background-color: var(--color-dark);
+  color: var(--color-cream);
+  font-family: var(--font-sans);
+}
