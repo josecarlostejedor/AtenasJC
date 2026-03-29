@@ -1,37 +1,20 @@
-# 🏛️ Atenas & Meteora — Itinerario Semana Santa 2026
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-Web con el itinerario completo del viaje Madrid → Atenas (2–7 Abril 2026).
+# Run and deploy your AI Studio app
 
-## 🚀 Despliegue en Render (gratis)
+This contains everything you need to run your app locally.
 
-1. Sube este repositorio a GitHub
-2. Ve a [render.com](https://render.com) y crea una cuenta gratuita
-3. Clic en **New → Web Service**
-4. Conecta tu repositorio de GitHub
-5. Configura:
-   - **Build Command:** `pip install -r requirements.txt`
-   - **Start Command:** `gunicorn app:app`
-   - **Environment:** Python 3
-6. Clic en **Deploy** → ¡En 2 minutos tienes tu web online!
+View your app in AI Studio: https://ai.studio/apps/98c033e2-dbb3-4c80-a966-6f2a51791083
 
-## 💻 Ejecutar en local
+## Run Locally
 
-```bash
-pip install -r requirements.txt
-python app.py
-```
-Abre [http://localhost:5000](http://localhost:5000)
+**Prerequisites:**  Node.js
 
-## 📁 Archivos
 
-- `app.py` — Aplicación Flask con todo el itinerario y la web completa
-- `requirements.txt` — Dependencias Python
-
-## ✨ Características
-
-- Itinerario día a día con horarios detallados
-- Fotos de cada destino (Unsplash)
-- Mapas de Google integrados (desplegables)
-- Enlaces a entradas, mapas y recursos
-- Tabla resumen y consejos esenciales
-- Diseño elegante responsive (móvil y escritorio)
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
